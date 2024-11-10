@@ -1,0 +1,63 @@
+.course-management-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.course-management-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.course-management-students-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.course-management-student-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.course-management-card-content {
+    text-align: center;
+}
+
+.course-management-student-name {
+    font-size: 18px;
+    margin: 0;
+}
+
+.course-management-student-email {
+    font-size: 14px;
+    color: #555;
+}
+
+.course-management-btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course-management-btn-danger {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.course-management-btn-primary {
+    background-color: #3498db;
+    color: white;
+}
+
+.course-management-form-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

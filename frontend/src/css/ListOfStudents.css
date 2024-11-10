@@ -1,0 +1,37 @@
+.list-students-btn {
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.list-students-btn:hover {
+    transform: scale(1.05);
+}
+
+.list-students-btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+.list-students-btn-success:hover {
+    background-color: #218838;
+}
+
+.list-students-btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.list-students-btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.list-students-btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.list-students-btn-danger:hover {
+    background-color: #c82333;
+}

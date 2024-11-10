@@ -1,0 +1,85 @@
+.grades-page {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.grades-page__title {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.grades-page__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.grades-page__table th,
+.grades-page__table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.grades-page__table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.grades-page__table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.grades-page__table tr:hover {
+    background-color: #ddd;
+}
+
+.grades-page__form {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.grades-page__form-title {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.grades-page__input {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+}
+
+.grades-page__button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+}
+
+.grades-page__button:hover {
+    background-color: #0056b3;
+}
+
+.grades-page__button--cancel {
+    background-color: #f44336;
+}
+
+.grades-page__button--cancel:hover {
+    background-color: #d32f2f;
+}

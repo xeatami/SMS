@@ -1,0 +1,29 @@
+.student-profile {
+    padding: 20px;
+}
+
+.student-profile__card {
+    margin-bottom: 20px;
+}
+
+.student-profile__course-list {
+    display: flex; /* Сохраняем flex для гибкости, если потребуется */
+    flex-direction: column; /* Устанавливаем вертикальное направление */
+    align-items: flex-start; /* Выравнивание карточек по началу контейнера */
+}
+
+.student-profile__course-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0; /* Убираем боковые отступы, чтобы карточки не были сбоку */
+    text-decoration: none;
+    color: black;
+    width: 100%; /* Задаем ширину 100%, чтобы карточки заполняли контейнер */
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+.student-profile__course-card:hover {
+    background-color: #e0e0e0;
+}

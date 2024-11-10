@@ -1,0 +1,56 @@
+.course-description {
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-courses-btn {
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.list-courses-btn:hover {
+    transform: scale(1.05);
+}
+
+.list-courses-btn-warning {
+    background-color: #ffc107;
+    color: black;
+}
+
+.list-courses-btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.list-courses-btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.list-courses-btn-danger:hover {
+    background-color: #c82333;
+}
+
+.list-courses-btn-info {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.list-courses-btn-info:hover {
+    background-color: #138496;
+}
+
+.course-description {
+    padding: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-height: none;
+}
